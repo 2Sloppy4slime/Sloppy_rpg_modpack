@@ -1,0 +1,16 @@
+{
+	// Whether or not to make multishot arrows from bows do halved damage. Default is true.
+	"nerfBowMultishot": true,
+	// Whether or not to allow multiple projectiles to hit a single entity. Default is true.
+	"bypassHitCooldown": true,
+	"disableTridentMultishot": false,
+	"disableBowMultishot": false,
+	"disableThrowablesMultishot": false,
+	// The maximum level of multishot an item can have. Default is 3. NOTE: As of Minecraft version 1.21 this value is hardcoded to 3 as I have not found a good way to change the maximum level through code.
+	"maxMultishotLevel": 3,
+	"arrowsPerLevel": 2,
+	// Allowed values: "HORIZONTAL_LINE", "SPREAD". Default value: "HORIZONTAL_LINE"
+	"shootingPattern": "HORIZONTAL_LINE",
+	// !!!!! DO NOT MODIFY THIS VALUE !!!!
+	"!!!version": 0
+}

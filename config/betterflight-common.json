@@ -1,0 +1,16 @@
+{
+  "maxCharge": 20,
+  "takeOffCost": 3,
+  "flapCost": 2,
+  "rechargeTicksInAir": 80,
+  "rechargeTicksOnGround": 10,
+  "flareTicksPerChargePoint": 40,
+  "exhaustionPerChargePoint": 4.0,
+  "minFood": 6,
+  "cooldownTicks": 10,
+  "softCeiling": 256,
+  "hardCeiling": 400,
+  "classicMode": false,
+  "hudLocation": "BAR_CENTER",
+  "classicHud": false
+}

@@ -1,0 +1,47 @@
+{
+  "biome": {
+    "terrablenderRegionWeight": 2
+  },
+  "horseman": {
+    "maxHealth": 400.0,
+    "armor": 26.0,
+    "movementSpeed": 0.34,
+    "attackDamage": 16.0,
+    "attackKnockback": 0.0,
+    "loot": {
+      "horsemanLootItems": [
+        "sleepy_hollows:lootbag:3"
+      ]
+    }
+  },
+  "fleeingPumpkinHead": {
+    "maxHealth": 100.0,
+    "armor": 22.0,
+    "movementSpeed": 0.43000000417232515
+  },
+  "infectedZombie": {
+    "maxHealth": 30.0,
+    "armor": 1.0,
+    "movementSpeed": 0.23000000417232513,
+    "attackDamage": 5.0
+  },
+  "weapons": {
+    "spectralToolSpeed": 8.0,
+    "spectralToolDamage": 5.0,
+    "raubbauToolSpeed": 6.0,
+    "raubbauToolDamage": 3.0
+  },
+  "armor": {
+    "hauntboundHelmetDurability": 13,
+    "hauntboundChestplateDurability": 15,
+    "hauntboundLeggingsDurability": 16,
+    "hauntboundBootsDurability": 11,
+    "hauntboundHelmetDefense": 3,
+    "hauntboundChestplateDefense": 6,
+    "hauntboundLeggingsDefense": 8,
+    "hauntboundBootsDefense": 3,
+    "hauntboundToughness": 2.0,
+    "hauntboundKnockbackResistance": 0.05,
+    "enableHauntboundSetBonus": true
+  }
+}

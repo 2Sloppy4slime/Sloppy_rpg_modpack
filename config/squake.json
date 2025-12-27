@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "trimpMultiplier": 1.002,
+  "hardCapThreshold": 2.0,
+  "softCapThreshold": 1.4,
+  "softCapDegen": 0.7,
+  "sharkingEnabled": true,
+  "sharkingSurfaceTension": 0.2,
+  "sharkingWaterFriction": 0.99,
+  "groundAccelerate": 10.0,
+  "airAccelerate": 20.0,
+  "uncappedBunnyhopEnabled": true,
+  "trimpEnabled": true,
+  "fallDistanceThresholdIncrease": 0.0,
+  "maxAirAccelerationPerTick": 0.15
+}

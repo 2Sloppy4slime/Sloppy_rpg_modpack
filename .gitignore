@@ -1,0 +1,9 @@
+*
+!.gitignore
+!kubejs/
+!kubejs/**
+!mods/
+!mods/**
+!config/
+!config/**
+!README.md

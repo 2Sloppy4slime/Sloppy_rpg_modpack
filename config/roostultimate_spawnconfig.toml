@@ -1,0 +1,43 @@
+["Roost Ultimate Spawn Config"]
+	#Range: 1 ~ 1000
+	"Log Chicken - Groupsize Min" = 1
+	#Range: 1 ~ 1000
+	"Sand Chicken - Groupsize Min" = 1
+	#Range: 1 ~ 1000
+	"Cobble Chicken - Spawnweight" = 14
+	#Range: 1 ~ 1000
+	"Cobble Chicken - Groupsize Min" = 1
+	#Range: 1 ~ 1000
+	"Netherrack Chicken - Groupsize Max" = 2
+	#Range: 1 ~ 1000
+	"Netherrack Chicken - Spawnweight" = 15
+	#Range: 1 ~ 1000
+	"Stone Chicken - Groupsize Min" = 1
+	#Range: 1 ~ 1000
+	"Bone Chicken - Groupsize Min" = 1
+	#Range: 1 ~ 1000
+	"Netherrack Chicken - Groupsize Min" = 1
+	#Range: 1 ~ 1000
+	"Log Chicken - Groupsize Max" = 6
+	#Range: 1 ~ 1000
+	"Endstone Chicken - Spawnweight" = 15
+	#Range: 1 ~ 1000
+	"Sand Chicken - Groupsize Max" = 6
+	#Range: 1 ~ 1000
+	"Bone Chicken - Spawnweight" = 20
+	#Range: 1 ~ 1000
+	"Log Chicken - Spawnweight" = 14
+	#Range: 1 ~ 1000
+	"Cobble Chicken - Groupsize Max" = 6
+	#Range: 1 ~ 1000
+	"Endstone Chicken - Groupsize Min" = 1
+	#Range: 1 ~ 1000
+	"Stone Chicken - Groupsize Max" = 6
+	#Range: 1 ~ 1000
+	"Endstone Chicken - Groupsize Max" = 2
+	#Range: 1 ~ 1000
+	"Sand Chicken - Spawnweight" = 14
+	#Range: 1 ~ 1000
+	"Bone Chicken - Groupsize Max" = 2
+	#Range: 1 ~ 1000
+	"Stone Chicken - Spawnweight" = 14
