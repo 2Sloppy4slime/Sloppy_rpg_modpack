@@ -351,200 +351,204 @@ ServerEvents.recipes(event=> {
     //critical_chance IGN : Spell volatility
         //1
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:critical_chance","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "archon:spry_dust"},{"item" : "hexcasting:amethyst_dust"},{"item" : "morerunes:blood_rune"},{"item" : "morerunes:blood_rune"},{"item" : "hexcasting:amethyst_dust"}],
         "level": 1})
+
         //2
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:critical_chance","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:critical_chance","min_level": 1}, 
         "level": 2})
+
         //3
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:critical_chance","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:critical_chance","min_level": 2}, 
         "level": 3})
+
         //4
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:critical_chance","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "hexcasting:charged_amethyst"}],
         "input": {"enchantment": "spell_power:critical_chance","min_level": 3}, 
         "level": 4})
+
         //5
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:critical_chance","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "hexcasting:quenched_allay_shard"},{"item" : "blood_mages:netherite_blood_staff"}],
         "input": {"enchantment": "spell_power:critical_chance","min_level": 4}, 
         "level": 5})
 
-    //critical_damage
+    //critical_damage IGN : Amplify spell
         //1
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:critical_damage","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "archon:spry_dust"},{"item" : "hexcasting:amethyst_dust"},{"item" : "morerunes:sound_rune"},{"item" : "morerunes:corruption_rune"},{"item" : "hexcasting:amethyst_dust"}],
         "level": 1})
         //2
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:critical_damage","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:critical_damage","min_level": 1}, 
         "level": 2})
         //3
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:critical_damage","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:critical_damage","min_level": 2}, 
         "level": 3})
         //4
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:critical_damage","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "hexcasting:charged_amethyst"}],
         "input": {"enchantment": "spell_power:critical_damage","min_level": 3}, 
         "level": 4})
         //5
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:critical_damage","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "hexcasting:quenched_allay_shard"},{"item" : "mcdw:bow_call_of_the_void"}],
         "input": {"enchantment": "spell_power:critical_damage","min_level": 4}, 
         "level": 5}) 
 
     //energize
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:energize","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "archon:spry_dust"},{"item" : "hexcasting:amethyst_dust"},{"item" : "runes:healing_stone"},{"item" : "runes:lightning_stone"},{"item" : "hexcasting:amethyst_dust"}],
         "level": 1})
         //2
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:energize","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:energize","min_level": 1}, 
         "level": 2})
         //3
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:energize","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:energize","min_level": 2}, 
         "level": 3})
         //4
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:energize","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "hexcasting:charged_amethyst"}],
         "input": {"enchantment": "spell_power:energize","min_level": 3}, 
         "level": 4})
         //5
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:energize","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "hexcasting:quenched_allay_shard"},{"item" : "morewizardsmod:netherite_lightning_staff"}],
         "input": {"enchantment": "spell_power:energize","min_level": 4}, 
         "level": 5})
 
     //haste
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:haste","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "archon:spry_dust"},{"item" : "hexcasting:amethyst_dust"},{"item" : "runes:arcane_stone"},{"item" : "runes:lightning_stone"},{"item" : "hexcasting:amethyst_dust"}],
         "level": 1})
         //2
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:haste","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:haste","min_level": 1}, 
         "level": 2})
         //3
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:haste","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:haste","min_level": 2}, 
         "level": 3})
         //4
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:haste","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "hexcasting:charged_amethyst"}],
         "input": {"enchantment": "spell_power:haste","min_level": 3}, 
         "level": 4})
         //5
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:haste","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "hexcasting:quenched_allay_shard"},{"item" : "mcda:ocelot_armor_helmet"}],
         "input": {"enchantment": "spell_power:haste","min_level": 4}, 
         "level": 5})
 
     //magic_protection
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:magic_protection","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "archon:spry_dust"},{"item" : "hexcasting:amethyst_dust"},{"item" : "morerunes:water_rune"},{"item" : "runes:soul_stone"},{"item" : "hexcasting:amethyst_dust"}],
         "level": 1})
         //2
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:magic_protection","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:magic_protection","min_level": 1}, 
         "level": 2})
         //3
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:magic_protection","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "hexcasting:charged_amethyst"}],
         "input": {"enchantment": "spell_power:magic_protection","min_level": 2}, 
         "level": 3})
         //4
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:magic_protection","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "hexcasting:quenched_allay_shard"},{"item" : "oneironaut:hex_resistant_block"}],
         "input": {"enchantment": "spell_power:magic_protection","min_level": 3}, 
         "level": 4})
 
     //soulfrost
         //1
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:soulfrost","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "archon:spry_dust"},{"item" : "hexcasting:amethyst_dust"},{"item" : "runes:soul_stone"},{"item" : "runes:frost_stone"},{"item" : "hexcasting:amethyst_dust"}],
         "level": 1})
         //2
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:soulfrost","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:soulfrost","min_level": 1}, 
         "level": 2})
         //3
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:soulfrost","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:soulfrost","min_level": 2}, 
         "level": 3})
         //4
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:soulfrost","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "hexcasting:charged_amethyst"}],
         "input": {"enchantment": "spell_power:soulfrost","min_level": 3}, 
         "level": 4})
         //5
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:soulfrost","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "hexcasting:quenched_allay_shard"},{"item" : "mcdw:sword_frost_slayer"},],
         "input": {"enchantment": "spell_power:soulfrost","min_level": 4}, 
         "level": 5})
 
     //spell_power
         //1
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:spell_power","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "archon:spry_dust"},{"item" : "hexcasting:amethyst_dust"},{"item" : "runes:arcane_stone"},{"item" : "runes:arcane_stone"},{"item" : "hexcasting:amethyst_dust"}],
         "level": 1})
         //2
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:spell_power","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:spell_power","min_level": 1}, 
         "level": 2})
         //3
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:spell_power","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:spell_power","min_level": 2}, 
         "level": 3})
         //4
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:spell_power","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "hexcasting:charged_amethyst"}],
         "input": {"enchantment": "spell_power:spell_power","min_level": 3}, 
         "level": 4})
         //5
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:spell_power","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "hexcasting:quenched_allay_shard"},{"item" : "hextended:staff/long/mindsplice"}], //oneironauts stuff here hold on
         "input": {"enchantment": "spell_power:spell_power","min_level": 4}, 
         "level": 5})
 
     //sunfire
         //1
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:sunfire","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "archon:spry_dust"},{"item" : "hexcasting:amethyst_dust"},{"item" : "runes:arcane_stone"},{"item" : "runes:fire_stone"},{"item" : "hexcasting:amethyst_dust"}],
         "level": 1})
         //2
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:sunfire","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:sunfire","min_level": 1}, 
         "level": 2})
         //3
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:sunfire","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:sunfire","min_level": 2}, 
         "level": 3})
         //4
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:sunfire","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "hexcasting:charged_amethyst"}],
         "input": {"enchantment": "spell_power:sunfire","min_level": 3}, 
         "level": 4})
         //5
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:sunfire","force": false,
-        "ingredients": [{"item" : "hexcasting:amethyst_dust"}],
+        "ingredients": [{"item" : "hexcasting:quenched_allay_shard"},{"item" : "battlemages:netherite_fire_flamberge"},],
         "input": {"enchantment": "spell_power:sunfire","min_level": 4}, 
         "level": 5})
 

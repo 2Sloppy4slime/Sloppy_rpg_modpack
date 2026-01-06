@@ -3,6 +3,7 @@
   "general": {
     "clear_dynamic_resources": false,
     "extra_debug": false,
-    "extra_children_debug": false
+    "extra_children_debug": false,
+    "global_datapacks_folder": "moonlight-global-datapacks"
   }
 }
