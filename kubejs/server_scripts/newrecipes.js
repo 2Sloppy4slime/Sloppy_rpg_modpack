@@ -70,6 +70,16 @@ ServerEvents.recipes(event => {
     "mcda:iron_plate", //item to remove
     "create:iron_sheet" //item to replace with
   )
+    event.replaceInput(
+    {output:"create:goggles"}, //filter
+    "#c:glass_blocks", //item to remove
+    "hexcasting:lens" //item to replace with
+  )
+    event.replaceOutput(
+    {output:"create:goggles"}, //filter
+    "create:goggles", //item to remove 
+    Item.of("create:goggles",'{AttributeModifiers:[{Slot:"head",AttributeName:"hexcasting:grid_zoom",Name:"hexcasting:grid_zoom",Amount:0.66,Operation:1,UUID:[I;1303713627,1041451887,-2131963930,-855724358]},{Slot:"head",AttributeName:"hexcasting:scry_sight",Name:"hexcasting:scry_sight",Amount:1,Operation:0,UUID:[I;1303713627,1041451887,-2131963930,-855724359]}],TrinketAttributeModifiers:[{Slot:"head/face",AttributeName:"hexcasting:grid_zoom",Name:"hexcasting:grid_zoom",Amount:0.66,Operation:1,UUID:[I;1303743627,1041451887,-2131963930,-855724358]},{Slot:"head/face",AttributeName:"hexcasting:scry_sight",Name:"hexcasting:scry_sight",Amount:1,Operation:0,UUID:[I;1303713627,1041851887,-2131963930,-855724359]}]}') //item to replace with
+  )
 
   //gilded glory armor remove
   event.remove({output: "mcda:gilded_glory_helmet"})
@@ -183,6 +193,7 @@ ServerEvents.recipes(event => {
   //tier 7
   event.custom({"type": "create:pressing","ingredients": [ { "tag" : "fabric:roost/tier7"}],"results": [ {"item" : "chicken_roost:chicken_essence_tier_7"}]});
 
+
   //dupli poulet
   //tier1
   event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_cobble"},{ "item" : "chicken_roost:chicken_essence_tier_1" }],"results": [ {"item" : "chicken_roost:c_cobble"},{"item" : "chicken_roost:c_c_cobble"}]});
@@ -256,3 +267,4 @@ event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost
 
   console.log('BOK BOK! The chicken recipes event has fired!')
 })
+

@@ -356,25 +356,25 @@ ServerEvents.recipes(event=> {
 
         //2
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:critical_chance","force": false,
-        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
+        "ingredients": [{"item" : "archon:spry_dust"},{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:critical_chance","min_level": 1}, 
         "level": 2})
 
         //3
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:critical_chance","force": false,
-        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
+        "ingredients": [{"item" : "archon:glisteel_block"},{"item" : "archon:pixie_leaves"},{"item" : "minecraft:amethyst_shard"},{"item" : "archon:pixie_leaves"},{"item" : "archon:glisteel_block"}],
         "input": {"enchantment": "spell_power:critical_chance","min_level": 2}, 
         "level": 3})
 
         //4
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:critical_chance","force": false,
-        "ingredients": [{"item" : "hexcasting:charged_amethyst"}],
+        "ingredients": [{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"}],
         "input": {"enchantment": "spell_power:critical_chance","min_level": 3}, 
         "level": 4})
 
         //5
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:critical_chance","force": false,
-        "ingredients": [{"item" : "hexcasting:quenched_allay_shard"},{"item" : "blood_mages:netherite_blood_staff"}],
+        "ingredients": [{"item" : "blood_mages:netherite_blood_staff"},{"item" : "hexcasting:quenched_allay_shard"},{"item" : "hexcasting:quenched_allay_shard"}],
         "input": {"enchantment": "spell_power:critical_chance","min_level": 4}, 
         "level": 5})
 
@@ -385,22 +385,22 @@ ServerEvents.recipes(event=> {
         "level": 1})
         //2
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:critical_damage","force": false,
-        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
+        "ingredients": [{"item" : "archon:spry_dust"},{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:critical_damage","min_level": 1}, 
         "level": 2})
         //3
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:critical_damage","force": false,
-        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
+        "ingredients": [{"item" : "archon:glisteel_block"},{"item" : "archon:pixie_leaves"},{"item" : "minecraft:amethyst_shard"},{"item" : "archon:pixie_leaves"},{"item" : "archon:glisteel_block"}],
         "input": {"enchantment": "spell_power:critical_damage","min_level": 2}, 
         "level": 3})
         //4
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:critical_damage","force": false,
-        "ingredients": [{"item" : "hexcasting:charged_amethyst"}],
+        "ingredients": [{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"}],
         "input": {"enchantment": "spell_power:critical_damage","min_level": 3}, 
         "level": 4})
         //5
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:critical_damage","force": false,
-        "ingredients": [{"item" : "hexcasting:quenched_allay_shard"},{"item" : "mcdw:bow_call_of_the_void"}],
+        "ingredients": [{"item" : "mcdw:bow_call_of_the_void"},{"item" : "hexcasting:quenched_allay_shard"},{"item" : "hexcasting:quenched_allay_shard"}],
         "input": {"enchantment": "spell_power:critical_damage","min_level": 4}, 
         "level": 5}) 
 
@@ -410,22 +410,22 @@ ServerEvents.recipes(event=> {
         "level": 1})
         //2
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:energize","force": false,
-        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
+        "ingredients": [{"item" : "archon:spry_dust"},{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:energize","min_level": 1}, 
         "level": 2})
         //3
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:energize","force": false,
-        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
+        "ingredients": [{"item" : "archon:glisteel_block"},{"item" : "archon:pixie_leaves"},{"item" : "minecraft:amethyst_shard"},{"item" : "archon:pixie_leaves"},{"item" : "archon:glisteel_block"}],
         "input": {"enchantment": "spell_power:energize","min_level": 2}, 
         "level": 3})
         //4
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:energize","force": false,
-        "ingredients": [{"item" : "hexcasting:charged_amethyst"}],
+        "ingredients": [{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"}],
         "input": {"enchantment": "spell_power:energize","min_level": 3}, 
         "level": 4})
         //5
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:energize","force": false,
-        "ingredients": [{"item" : "hexcasting:quenched_allay_shard"},{"item" : "morewizardsmod:netherite_lightning_staff"}],
+        "ingredients": [{"item" : "morewizardsmod:netherite_lightning_staff"},{"item" : "hexcasting:quenched_allay_shard"},{"item" : "hexcasting:quenched_allay_shard"}],
         "input": {"enchantment": "spell_power:energize","min_level": 4}, 
         "level": 5})
 
@@ -435,22 +435,22 @@ ServerEvents.recipes(event=> {
         "level": 1})
         //2
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:haste","force": false,
-        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
+        "ingredients": [{"item" : "archon:spry_dust"},{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:haste","min_level": 1}, 
         "level": 2})
         //3
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:haste","force": false,
-        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
+        "ingredients": [{"item" : "archon:glisteel_block"},{"item" : "archon:pixie_leaves"},{"item" : "minecraft:amethyst_shard"},{"item" : "archon:pixie_leaves"},{"item" : "archon:glisteel_block"}],
         "input": {"enchantment": "spell_power:haste","min_level": 2}, 
         "level": 3})
         //4
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:haste","force": false,
-        "ingredients": [{"item" : "hexcasting:charged_amethyst"}],
+        "ingredients": [{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"}],
         "input": {"enchantment": "spell_power:haste","min_level": 3}, 
         "level": 4})
         //5
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:haste","force": false,
-        "ingredients": [{"item" : "hexcasting:quenched_allay_shard"},{"item" : "mcda:ocelot_armor_helmet"}],
+        "ingredients": [{"item" : "mcda:ocelot_armor_helmet"},{"item" : "hexcasting:quenched_allay_shard"},{"item" : "hexcasting:quenched_allay_shard"}],
         "input": {"enchantment": "spell_power:haste","min_level": 4}, 
         "level": 5})
 
@@ -460,17 +460,17 @@ ServerEvents.recipes(event=> {
         "level": 1})
         //2
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:magic_protection","force": false,
-        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
+        "ingredients": [{"item" : "archon:spry_dust"},{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:magic_protection","min_level": 1}, 
         "level": 2})
         //3
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:magic_protection","force": false,
-        "ingredients": [{"item" : "hexcasting:charged_amethyst"}],
+        "ingredients": [{"item" : "archon:glisteel_block"},{"item" : "archon:pixie_leaves"},{"item" : "hexcasting:charged_amethyst"},{"item" : "archon:pixie_leaves"},{"item" : "archon:glisteel_block"}],
         "input": {"enchantment": "spell_power:magic_protection","min_level": 2}, 
         "level": 3})
         //4
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:magic_protection","force": false,
-        "ingredients": [{"item" : "hexcasting:quenched_allay_shard"},{"item" : "oneironaut:hex_resistant_block"}],
+        "ingredients": [{"item" : "oneironaut:hex_resistant_block"},{"item" : "hexcasting:quenched_allay_shard"},{"item" : "hexcasting:quenched_allay_shard"}],
         "input": {"enchantment": "spell_power:magic_protection","min_level": 3}, 
         "level": 4})
 
@@ -481,22 +481,22 @@ ServerEvents.recipes(event=> {
         "level": 1})
         //2
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:soulfrost","force": false,
-        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
+        "ingredients": [{"item" : "archon:spry_dust"},{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:soulfrost","min_level": 1}, 
         "level": 2})
         //3
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:soulfrost","force": false,
-        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
+        "ingredients": [{"item" : "archon:glisteel_block"},{"item" : "archon:pixie_leaves"},{"item" : "minecraft:amethyst_shard"},{"item" : "archon:pixie_leaves"},{"item" : "archon:glisteel_block"}],
         "input": {"enchantment": "spell_power:soulfrost","min_level": 2}, 
         "level": 3})
         //4
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:soulfrost","force": false,
-        "ingredients": [{"item" : "hexcasting:charged_amethyst"}],
+        "ingredients": [{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"}],
         "input": {"enchantment": "spell_power:soulfrost","min_level": 3}, 
         "level": 4})
         //5
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:soulfrost","force": false,
-        "ingredients": [{"item" : "hexcasting:quenched_allay_shard"},{"item" : "mcdw:sword_frost_slayer"},],
+        "ingredients": [{"item" : "mcdw:sword_frost_slayer"},{"item" : "hexcasting:quenched_allay_shard"},{"item" : "hexcasting:quenched_allay_shard"}],
         "input": {"enchantment": "spell_power:soulfrost","min_level": 4}, 
         "level": 5})
 
@@ -507,22 +507,22 @@ ServerEvents.recipes(event=> {
         "level": 1})
         //2
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:spell_power","force": false,
-        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
+        "ingredients": [{"item" : "archon:spry_dust"},{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:spell_power","min_level": 1}, 
         "level": 2})
         //3
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:spell_power","force": false,
-        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
+        "ingredients": [{"item" : "archon:glisteel_block"},{"item" : "archon:pixie_leaves"},{"item" : "minecraft:amethyst_shard"},{"item" : "archon:pixie_leaves"},{"item" : "archon:glisteel_block"}],
         "input": {"enchantment": "spell_power:spell_power","min_level": 2}, 
         "level": 3})
         //4
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:spell_power","force": false,
-        "ingredients": [{"item" : "hexcasting:charged_amethyst"}],
+        "ingredients": [{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"}],
         "input": {"enchantment": "spell_power:spell_power","min_level": 3}, 
         "level": 4})
         //5
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:spell_power","force": false,
-        "ingredients": [{"item" : "hexcasting:quenched_allay_shard"},{"item" : "hextended:staff/long/mindsplice"}], //oneironauts stuff here hold on
+        "ingredients": [{"item" : "hextended:staff/long/mindsplice"},{"item" : "hexcasting:quenched_allay_shard"},{"item" : "hexcasting:quenched_allay_shard"}], //oneironauts stuff here hold on
         "input": {"enchantment": "spell_power:spell_power","min_level": 4}, 
         "level": 5})
 
@@ -533,22 +533,22 @@ ServerEvents.recipes(event=> {
         "level": 1})
         //2
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:sunfire","force": false,
-        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
+        "ingredients": [{"item" : "archon:spry_dust"},{"item" : "minecraft:amethyst_shard"}],
         "input": {"enchantment": "spell_power:sunfire","min_level": 1}, 
         "level": 2})
         //3
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:sunfire","force": false,
-        "ingredients": [{"item" : "minecraft:amethyst_shard"}],
+        "ingredients": [{"item" : "archon:glisteel_block"},{"item" : "archon:pixie_leaves"},{"item" : "minecraft:amethyst_shard"},{"item" : "archon:pixie_leaves"},{"item" : "archon:glisteel_block"}],
         "input": {"enchantment": "spell_power:sunfire","min_level": 2}, 
         "level": 3})
         //4
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:sunfire","force": false,
-        "ingredients": [{"item" : "hexcasting:charged_amethyst"}],
+        "ingredients": [{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"},{"item" : "hexcasting:charged_amethyst"}],
         "input": {"enchantment": "spell_power:sunfire","min_level": 3}, 
         "level": 4})
         //5
         event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment": "spell_power:sunfire","force": false,
-        "ingredients": [{"item" : "hexcasting:quenched_allay_shard"},{"item" : "battlemages:netherite_fire_flamberge"},],
+        "ingredients": [{"item" : "battlemages:netherite_fire_flamberge"},{"item" : "hexcasting:quenched_allay_shard"},{"item" : "hexcasting:quenched_allay_shard"}],
         "input": {"enchantment": "spell_power:sunfire","min_level": 4}, 
         "level": 5})
 
@@ -664,3 +664,4 @@ event.custom({"type": "enchantment_infusion:enchantment_infusion","enchantment":
     //swiftfooted
     
 })
+
