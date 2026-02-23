@@ -1,0 +1,6 @@
+{
+	// Boolean for enabling/disabling telemetry, either true or false. Defaults to true
+	"isEnabled": true,
+	// !!!!! DO NOT MODIFY THIS VALUE !!!!
+	"!!!version": 0
+}

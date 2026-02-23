@@ -1,0 +1,344 @@
+{
+  "bags": {
+    "tctimod:lost_sack": {
+      "contents": [
+        {
+          "item": "tctimod:cursed_attack_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_attack_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_defence_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_defence_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_ranged_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_ranged_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_arcane_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_arcane_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_fire_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_fire_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_frost_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_frost_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_healing_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_healing_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_lightning_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_lightning_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_soul_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_soul_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        }
+      ],
+      "loot_tables": {
+        "minecraft:chests/bastion_treasure": {
+          "chance": 0.5,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "bosses_of_mass_destruction:entities/lich": {
+          "chance": 0.3,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/end_city_treasure": {
+          "chance": 0.5,
+          "min": 1.0,
+          "max": 1.0
+        }
+      }
+    },
+    "tctimod:cursed_sack": {
+      "contents": [
+        {
+          "item": "tctimod:cursed_ruby_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_ruby_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_topaz_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_topaz_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_citrine_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_citrine_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_jade_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_jade_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_sapphire_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_sapphire_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_tanzanite_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_tanzanite_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        }
+      ],
+      "loot_tables": {
+        "minecraft:chests/simple_dungeon": {
+          "chance": 0.5,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/bastion_treasure": {
+          "chance": 0.5,
+          "min": 1.0,
+          "max": 3.0
+        },
+        "minecraft:chests/ruined_portal": {
+          "chance": 0.3,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/end_city_treasure": {
+          "chance": 0.5,
+          "min": 1.0,
+          "max": 3.0
+        },
+        "minecraft:chests/ancient_city": {
+          "chance": 0.5,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/nether_bridge": {
+          "chance": 0.3,
+          "min": 1.0,
+          "max": 1.0
+        }
+      }
+    },
+    "tctimod:hidden_sack": {
+      "contents": [
+        {
+          "item": "tctimod:cursed_netherite_ruby_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_netherite_ruby_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_netherite_topaz_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_netherite_topaz_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_netherite_citrine_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_netherite_citrine_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_netherite_jade_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_netherite_jade_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_netherite_sapphire_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_netherite_sapphire_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_netherite_tanzanite_belt",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tctimod:cursed_netherite_tanzanite_aglet",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        }
+      ],
+      "loot_tables": {
+        "minecraft:chests/bastion_treasure": {
+          "chance": 0.35,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/bastion_bridge": {
+          "chance": 0.25,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/nether_bridge": {
+          "chance": 0.2,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/bastion_hoglin_stable": {
+          "chance": 0.25,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/bastion_other": {
+          "chance": 0.25,
+          "min": 1.0,
+          "max": 1.0
+        }
+      }
+    }
+  }
+}

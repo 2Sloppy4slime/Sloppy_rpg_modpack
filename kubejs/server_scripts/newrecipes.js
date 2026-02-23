@@ -11,7 +11,9 @@ ServerEvents.recipes(event => {
   // You can replace `event` with any name you like, as
   // long as you change it inside the callback too!
   //ritual table hexalia
-
+  event.custom({"type": "create:mixing",
+    "ingredients": [{"item": "biomesoplenty:flesh"},{"item": "biomesoplenty:flesh"},{"item": "biomesoplenty:flesh"},{"item": "biomesoplenty:flesh"},{"item": "minecraft:bucket"}],
+    "results": [{"item" : "biomesoplenty:blood_bucket"}]});
   event.shaped(Item.of("hexalia:ritual_table",1),
     [
       'AAA',
@@ -39,10 +41,7 @@ ServerEvents.recipes(event => {
     ["#fabric:roost/souls","#minecraft:stone_tool_materials"]
   )
 
-    event.shapeless(
-    Item.of("hexcasting:staff/oak",1),
-    ["#hexcasting:staves"]
-  )
+    event.shapeless(Item.of("hexcasting:staff/oak",1),["#hexcasting:staves"])
   //replace runes to use the blank rune for whichever
   //cryptic eye for end
   event.custom({
@@ -64,7 +63,38 @@ ServerEvents.recipes(event => {
   "copy_nbt": false
 })
 
-  //enlever les plates de mcda pour les remplacer avec des iron sheets de create
+//spellbook crafting
+  //fallen paladign
+  event.custom({"type": "enchantment_infusion:simple_infusion","ingredients": [{"item": "archon:diamond_mana_catalyst"},{"item": "netherexp:weeping_polished_blackstone_bricks"},{"item": "hexcasting:edified_panel"},{"item":  "minecraft:black_glazed_terracotta"},{"item": "archon:diamond_mana_catalyst"},{"item": "netherexp:weeping_polished_blackstone_bricks"},{"item": "hexcasting:edified_panel"},{"item": "minecraft:black_glazed_terracotta"},],"input": {"item": "hexcasting:spellbook",},"output": {"Count": 1,"id": "fpapmod:fell_paladin_spell_book"},"copy_nbt": false})
+  //lightning
+    event.custom({
+  "type": "enchantment_infusion:simple_infusion",
+  "ingredients": [{"item": "archon:diamond_mana_catalyst"},{"item": "elemental_metals:lightning_infused_iron_block"},{"item": "hexcasting:edified_panel"},{"item":  "elemental_metals:lightning_infused_iron_block"},{"item": "archon:diamond_mana_catalyst"},{"item": "elemental_metals:lightning_infused_iron_block"},{"item": "hexcasting:edified_panel"},{"item": "elemental_metals:lightning_infused_iron_block"},],
+  "input": {"item": "hexcasting:spellbook",},
+  "output": {"Count": 1,"id": "morewizardsmod:more_wizards_lightning_spell_book"},
+  "copy_nbt": false
+})
+  //battlemage fire
+    event.custom({"type": "enchantment_infusion:simple_infusion","ingredients": [{"item": "archon:diamond_mana_catalyst"},{"item": "elemental_metals:fire_infused_iron_block"},{"item": "hexcasting:edified_panel"},{"item":  "elemental_metals:fire_infused_iron_block"},{"item": "archon:diamond_mana_catalyst"},{"item": "elemental_metals:fire_infused_iron_block"},{"item": "hexcasting:edified_panel"},{"item": "elemental_metals:fire_infused_iron_block"},],"input": {"item": "hexcasting:spellbook",},"output": {"Count": 1,"id": "battlemages:battlemages_fire_spell_book"},"copy_nbt": false})
+  //battlemage frost
+    event.custom({"type": "enchantment_infusion:simple_infusion","ingredients": [{"item": "archon:diamond_mana_catalyst"},{"item": "elemental_metals:frost_infused_iron_block"},{"item": "hexcasting:edified_panel"},{"item":  "elemental_metals:frost_infused_iron_block"},{"item": "archon:diamond_mana_catalyst"},{"item": "elemental_metals:frost_infused_iron_block"},{"item": "hexcasting:edified_panel"},{"item": "elemental_metals:frost_infused_iron_block"},],"input": {"item": "hexcasting:spellbook",},"output": {"Count": 1,"id": "battlemages:battlemages_frost_spell_book"},"copy_nbt": false})
+  //battlemage arcane
+    event.custom({"type": "enchantment_infusion:simple_infusion","ingredients": [{"item": "archon:diamond_mana_catalyst"},{"item": "elemental_metals:arcane_infused_iron_block"},{"item": "hexcasting:edified_panel"},{"item":  "elemental_metals:arcane_infused_iron_block"},{"item": "archon:diamond_mana_catalyst"},{"item": "elemental_metals:arcane_infused_iron_block"},{"item": "hexcasting:edified_panel"},{"item": "elemental_metals:arcane_infused_iron_block"},],"input": {"item": "hexcasting:spellbook",},"output": {"Count": 1,"id": "battlemages:battlemages_arcane_spell_book"},"copy_nbt": false})
+  //druid
+    event.custom({"type": "enchantment_infusion:simple_infusion","ingredients": [{"item": "archon:diamond_mana_catalyst"},{"item": "elemental_metals:healing_infused_iron_block"},{"item": "hexcasting:edified_panel"},{"item":  "elemental_metals:healing_infused_iron_block"},{"item": "archon:diamond_mana_catalyst"},{"item": "elemental_metals:healing_infused_iron_block"},{"item": "hexcasting:edified_panel"},{"item": "elemental_metals:healing_infused_iron_block"},],"input": {"item": "hexcasting:spellbook",},"output": {"Count": 1,"id": "druid:druids_spell_book"},"copy_nbt": false})
+  //soul/priest (unholy book)
+    event.custom({"type": "enchantment_infusion:simple_infusion","ingredients": [{"item": "archon:diamond_mana_catalyst"},{"item": "elemental_metals:soul_infused_iron_block"},{"item": "hexcasting:edified_panel"},{"item":  "elemental_metals:soul_infused_iron_block"},{"item": "archon:diamond_mana_catalyst"},{"item": "elemental_metals:soul_infused_iron_block"},{"item": "hexcasting:edified_panel"},{"item": "elemental_metals:soul_infused_iron_block"},],"input": {"item": "hexcasting:spellbook",},"output": {"Count": 1,"id": "fpapmod:fell_priest_spell_book"},"copy_nbt": false})
+ 
+
+    
+    event.custom({
+  "type": "enchantment_infusion:simple_infusion",
+  "ingredients": [{"item" : "betterdeepdark:wardens_horn"},{"item" : "betterdeepdark:wardens_horn"},{"item" : "betterdeepdark:wardens_horn"},{"item" : "betterdeepdark:wardens_horn"}],
+  "input": {"item": "mcda:upgrade_core_void",},
+  "output": {"Count": 2,"id": "dimdoors:rift_signature"},
+  "copy_nbt": false
+})
+    //enlever les plates de mcda pour les remplacer avec des iron sheets de create
   event.replaceInput(
     {input:"mcda:iron_plate"}, //filter
     "mcda:iron_plate", //item to remove
@@ -91,27 +121,41 @@ ServerEvents.recipes(event => {
   event.remove({output: "endrem:witch_eye"})
   event.remove({output: "endrem:undead_eye"})
   
-  
-//chicken soul
-  event.shaped(
-    Item.of("minecraft:torch",1),
+  event.remove({output: "dimdoors:item_ag_dim_dimdoors_quartz_door"})
+    event.shaped(
+    Item.of("dimdoors:item_ag_dim_dimdoors_quartz_door",1),
     [
-      'A  ',
-      'B  ',
-      '   '
+      'ABA',
+      'CDC',
+      'ABA'
     ],
     {
-      A : "chicken_roost:chicken_essence_tier_1",
-      B : "minecraft:stick"
+      A: "minecraft:diamond",
+      B: "minecraft:gold_block",
+      C: "dimdoors:quartz_door",
+      D: "archon:mana_catalyst"
     }
   )
-  event.shapeless(
-    Item.of("runes:soul_stone",1),
-    ["#fabric:roost/souls","#minecraft:stone_tool_materials"]
+//chicken soul
+  event.replaceInput(
+    {input:"minecraft:soul_sand"}, //filter
+    "minecraft:soul_sand", //item to remove
+    "chicken_roost:chicken_essence_tier_5" //item to replace with)
   )
-  event.remove({output: "biomesoplenty:rose_quartz_block"})
+  //fix the wrong recipes
+    event.replaceInput({output:"netherexp:soul_candle"},"chicken_roost:chicken_essence_tier_5","minecraft:soul_sand")
+    event.replaceInput({output:"netherexp:ecto_soul_sand"},"chicken_roost:chicken_essence_tier_5","minecraft:soul_sand")
+    event.replaceInput({output:"netherexp:soul_magma_block"},"minecraft:magma_cream","minecraft:soul_sand")
+  event.shapeless(Item.of("runes:soul_stone",1),["#fabric:roost/souls","morerunes:blank_rune"])
+
+  event.shapeless(Item.of("archon:soul",1),["#fabric:roost/souls"])
+  event.shapeless(Item.of("endrem:undead_soul",1),["#fabric:roost/souls"])
+
+
+
   
   //rosequartz
+  event.remove({output: "biomesoplenty:rose_quartz_block"})
   event.custom(
    { 
     "type" : "create:compacting",
@@ -168,7 +212,7 @@ ServerEvents.recipes(event => {
       'ABA'
     ],
     {
-      A: "minecraft:netherite_upgrade_smithing_template",
+      A: "end_reborn:remnant_upgrade_smithing_template",
       B: "minecraft:netherite_ingot",
       C: "minecraft:nether_star",
       D: "chicken_roost:chicken_essence_tier_6"
@@ -176,95 +220,51 @@ ServerEvents.recipes(event => {
   )
 
   //event.recipes.create.pressing() marche pas
-  // donc on custom mais custom supporte pas les tags
-  //tier 1
-  event.custom({"type": "create:pressing","ingredients": [ { "tag" : "fabric:roost/tier1"}],"results": [ {"item" : "chicken_roost:chicken_essence_tier_1"}]});
-
-  //tier 2
-  event.custom({"type": "create:pressing","ingredients": [ { "tag" : "fabric:roost/tier2"}],"results": [ {"item" : "chicken_roost:chicken_essence_tier_2"}]});
-  //tier 3
-  event.custom({"type": "create:pressing","ingredients": [ { "tag" : "fabric:roost/tier3"}],"results": [ {"item" : "chicken_roost:chicken_essence_tier_3"}]});
-  //tier 4
-  event.custom({"type": "create:pressing","ingredients": [ { "tag" : "fabric:roost/tier4"}],"results": [ {"item" : "chicken_roost:chicken_essence_tier_4"}]});
-  //tier 5
-  event.custom({"type": "create:pressing","ingredients": [ { "tag" : "fabric:roost/tier5"}],"results": [ {"item" : "chicken_roost:chicken_essence_tier_5"}]});
-  //tier 6
-  event.custom({"type": "create:pressing","ingredients": [ { "tag" : "fabric:roost/tier6"}],"results": [ {"item" : "chicken_roost:chicken_essence_tier_6"}]});
-  //tier 7
-  event.custom({"type": "create:pressing","ingredients": [ { "tag" : "fabric:roost/tier7"}],"results": [ {"item" : "chicken_roost:chicken_essence_tier_7"}]});
-
-
+  for (let index = 1; index <= 7; index++) {
+    event.custom({"type": "create:pressing","ingredients": [ { "tag" : "fabric:roost/tier"+String(index)}],"results": [ {"item" : "chicken_roost:chicken_essence_tier_"+String(index)}]});
+  }
   //dupli poulet
   //tier1
-  event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_cobble"},{ "item" : "chicken_roost:chicken_essence_tier_1" }],"results": [ {"item" : "chicken_roost:c_cobble"},{"item" : "chicken_roost:c_c_cobble"}]});
-  event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_oakwood"},{ "item" : "chicken_roost:chicken_essence_tier_1" }],"results": [ {"item" : "chicken_roost:c_oakwood"},{"item" : "chicken_roost:c_oakwood"}]});
-  event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_andesite"},{ "item" : "chicken_roost:chicken_essence_tier_1" }],"results": [ {"item" : "chicken_roost:c_andesite"},{"item" : "chicken_roost:c_andesite"}]});
-  event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_sand"},{ "item" : "chicken_roost:chicken_essence_tier_1" }],"results": [ {"item" : "chicken_roost:c_sand"},{"item" : "chicken_roost:c_sand"}]});
-  event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_vanilla"},{ "item" : "chicken_roost:chicken_essence_tier_1" }],"results": [ {"item" : "chicken_roost:c_vanilla"},{"item" : "chicken_roost:c_vanilla"}]});
-  event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_gravel"},{ "item" : "chicken_roost:chicken_essence_tier_1" }],"results": [ {"item" : "chicken_roost:c_gravel"},{"item" : "chicken_roost:c_gravel"}]});
-  event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_granite"},{ "item" : "chicken_roost:chicken_essence_tier_1" }],"results": [ {"item" : "chicken_roost:c_granite"},{"item" : "chicken_roost:c_granite"}]});
-  event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_honeycomb"},{ "item" : "chicken_roost:chicken_essence_tier_1" }],"results": [ {"item" : "chicken_roost:c_honeycomb"},{"item" : "chicken_roost:c_honeycomb"}]});
-  event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_feather"},{ "item" : "chicken_roost:chicken_essence_tier_1" }],"results": [ {"item" : "chicken_roost:c_feather"},{"item" : "chicken_roost:c_feather"}]});
-  event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_wool"},{ "item" : "chicken_roost:chicken_essence_tier_1" }],"results": [ {"item" : "chicken_roost:c_wool"},{"item" : "chicken_roost:c_wool"}]});
-  event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_stone"},{ "item" : "chicken_roost:chicken_essence_tier_1" }],"results": [ {"item" : "chicken_roost:c_stone"},{"item" : "chicken_roost:c_stone"}]});
-  event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_diorite"},{ "item" : "chicken_roost:chicken_essence_tier_1" }],"results": [ {"item" : "chicken_roost:c_diorite"},{"item" : "chicken_roost:c_diorite"}]});
-  
- //tier2
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_melon"},{ "item" : "chicken_roost:chicken_essence_tier_2" }],"results": [ {"item" : "chicken_roost:c_melon"},{"item" : "chicken_roost:c_melon"}]});
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_netherrack"},{ "item" : "chicken_roost:chicken_essence_tier_2" }],"results": [ {"item" : "chicken_roost:c_netherrack"},{"item" : "chicken_roost:c_netherrack"}]}); 
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_snow"},{ "item" : "chicken_roost:chicken_essence_tier_2" }],"results": [ {"item" : "chicken_roost:c_snow"},{"item" : "chicken_roost:c_snow"}]}); 
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_glass"},{ "item" : "chicken_roost:chicken_essence_tier_2" }],"results": [ {"item" : "chicken_roost:c_glass"},{"item" : "chicken_roost:c_glass"}]}); 
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_sugar"},{ "item" : "chicken_roost:chicken_essence_tier_2" }],"results": [ {"item" : "chicken_roost:c_sugar"},{"item" : "chicken_roost:c_sugar"}]}); 
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_flint"},{ "item" : "chicken_roost:chicken_essence_tier_2" }],"results": [ {"item" : "chicken_roost:c_flint"},{"item" : "chicken_roost:c_flint"}]}); 
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_apple"},{ "item" : "chicken_roost:chicken_essence_tier_2" }],"results": [ {"item" : "chicken_roost:c_apple"},{"item" : "chicken_roost:c_apple"}]}); 
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_bone"},{ "item" : "chicken_roost:chicken_essence_tier_2" }],"results": [ {"item" : "chicken_roost:c_bone"},{"item" : "chicken_roost:c_bone"}]}); 
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_coal"},{ "item" : "chicken_roost:chicken_essence_tier_2" }],"results": [ {"item" : "chicken_roost:c_coal"},{"item" : "chicken_roost:c_coal"}]}); 
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_carrot"},{ "item" : "chicken_roost:chicken_essence_tier_2" }],"results": [ {"item" : "chicken_roost:c_carrot"},{"item" : "chicken_roost:c_carrot"}]}); 
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_ink"},{ "item" : "chicken_roost:chicken_essence_tier_2" }],"results": [ {"item" : "chicken_roost:c_ink"},{"item" : "chicken_roost:c_ink"}]}); 
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_beetroot"},{ "item" : "chicken_roost:chicken_essence_tier_2" }],"results": [ {"item" : "chicken_roost:c_beetroot"},{"item" : "chicken_roost:c_beetroot"}]}); 
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_sweetberries"},{ "item" : "chicken_roost:chicken_essence_tier_2" }],"results": [ {"item" : "chicken_roost:c_sweetberries"},{"item" : "chicken_roost:c_sweetberries"}]}); 
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_glowberries"},{ "item" : "chicken_roost:chicken_essence_tier_2" }],"results": [ {"item" : "chicken_roost:c_glowberries"},{"item" : "chicken_roost:c_glowberries"}]}); 
- 
- //tier3
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_soulsoil"},{ "item" : "chicken_roost:chicken_essence_tier_3" }],"results": [ {"item" : "chicken_roost:c_soulsoil"},{"item" : "chicken_roost:c_soulsoil"}]});
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_string"},{ "item" : "chicken_roost:chicken_essence_tier_3" }],"results": [ {"item" : "chicken_roost:c_string"},{"item" : "chicken_roost:c_string"}]});
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_basalt"},{ "item" : "chicken_roost:chicken_essence_tier_3" }],"results": [ {"item" : "chicken_roost:c_basalt"},{"item" : "chicken_roost:c_basalt"}]});
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_copper"},{ "item" : "chicken_roost:chicken_essence_tier_3" }],"results": [ {"item" : "chicken_roost:c_copper"},{"item" : "chicken_roost:c_copper"}]});
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_clay"},{ "item" : "chicken_roost:chicken_essence_tier_3" }],"results": [ {"item" : "chicken_roost:c_clay"},{"item" : "chicken_roost:c_clay"}]});
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_soulsand"},{ "item" : "chicken_roost:chicken_essence_tier_3" }],"results": [ {"item" : "chicken_roost:c_soulsand"},{"item" : "chicken_roost:c_soulsand"}]});
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_sponge"},{ "item" : "chicken_roost:chicken_essence_tier_3" }],"results": [ {"item" : "chicken_roost:c_sponge"},{"item" : "chicken_roost:c_sponge"}]});
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_leather"},{ "item" : "chicken_roost:chicken_essence_tier_3" }],"results": [ {"item" : "chicken_roost:c_leather"},{"item" : "chicken_roost:c_leather"}]});
-
- //tier4
-event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_netherwart"},{ "item" : "chicken_roost:chicken_essence_tier_4" }],"results": [ {"item" : "chicken_roost:c_netherwart"},{"item" : "chicken_roost:c_netherwart"}]});
-event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_redstone"},{ "item" : "chicken_roost:chicken_essence_tier_4" }],"results": [ {"item" : "chicken_roost:c_redstone"},{"item" : "chicken_roost:c_redstone"}]});
-event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_lapis"},{ "item" : "chicken_roost:chicken_essence_tier_4" }],"results": [ {"item" : "chicken_roost:c_lapis"},{"item" : "chicken_roost:c_lapis"}]});
-event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_obsidian"},{ "item" : "chicken_roost:chicken_essence_tier_4" }],"results": [ {"item" : "chicken_roost:c_obsidian"},{"item" : "chicken_roost:c_obsidian"}]});
-event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_magmacream"},{ "item" : "chicken_roost:chicken_essence_tier_4" }],"results": [ {"item" : "chicken_roost:c_magmacream"},{"item" : "chicken_roost:c_magmacream"}]});
-event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_iron"},{ "item" : "chicken_roost:chicken_essence_tier_4" }],"results": [ {"item" : "chicken_roost:c_iron"},{"item" : "chicken_roost:c_iron"}]});
-event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_rotten"},{ "item" : "chicken_roost:chicken_essence_tier_4" }],"results": [ {"item" : "chicken_roost:c_rotten"},{"item" : "chicken_roost:c_rotten"}]});
-event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_slime"},{ "item" : "chicken_roost:chicken_essence_tier_4" }],"results": [ {"item" : "chicken_roost:c_slime"},{"item" : "chicken_roost:c_slime"}]});
-
- //tier5
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_chorusfruit"},{ "item" : "chicken_roost:chicken_essence_tier_5" }],"results": [ {"item" : "chicken_roost:c_chorusfruit"},{"item" : "chicken_roost:c_chorusfruit"}]});
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_glowstone"},{ "item" : "chicken_roost:chicken_essence_tier_5" }],"results": [ {"item" : "chicken_roost:c_glowstone"},{"item" : "chicken_roost:c_glowstone"}]});
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_endstone"},{ "item" : "chicken_roost:chicken_essence_tier_5" }],"results": [ {"item" : "chicken_roost:c_endstone"},{"item" : "chicken_roost:c_endstone"}]});
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_gold"},{ "item" : "chicken_roost:chicken_essence_tier_5" }],"results": [ {"item" : "chicken_roost:c_gold"},{"item" : "chicken_roost:c_gold"}]});
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_blazerod"},{ "item" : "chicken_roost:chicken_essence_tier_5" }],"results": [ {"item" : "chicken_roost:c_blazerod"},{"item" : "chicken_roost:c_blazerod"}]});
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_netherquartz"},{ "item" : "chicken_roost:chicken_essence_tier_5" }],"results": [ {"item" : "chicken_roost:c_netherquartz"},{"item" : "chicken_roost:c_netherquartz"}]});
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_tnt"},{ "item" : "chicken_roost:chicken_essence_tier_5" }],"results": [ {"item" : "chicken_roost:c_tnt"},{"item" : "chicken_roost:c_tnt"}]});
- event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_enderpearl"},{ "item" : "chicken_roost:chicken_essence_tier_5" }],"results": [ {"item" : "chicken_roost:c_enderpearl"},{"item" : "chicken_roost:c_enderpearl"}]});
-
- //tier6
-event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_emerald"},{ "item" : "chicken_roost:chicken_essence_tier_6" }],"results": [ {"item" : "chicken_roost:c_emerald"},{"item" : "chicken_roost:c_emerald"}]});
-event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_ghasttear"},{ "item" : "chicken_roost:chicken_essence_tier_6" }],"results": [ {"item" : "chicken_roost:c_ghasttear"},{"item" : "chicken_roost:c_ghasttear"}]});
-
-//tier7
-event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_diamond"},{ "item" : "chicken_roost:chicken_essence_tier_7" }],"results": [ {"item" : "chicken_roost:c_diamond"},{"item" : "chicken_roost:c_diamond"}]});
-event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_netherite"},{ "item" : "chicken_roost:chicken_essence_tier_7" }],"results": [ {"item" : "chicken_roost:c_netherite"},{"item" : "chicken_roost:c_netherite"}]});
-event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_netherstar"},{ "item" : "chicken_roost:chicken_essence_tier_7" }],"results": [ {"item" : "chicken_roost:c_netherstar"},{"item" : "chicken_roost:c_netherstar"}]});
-
+  let chickens = [["cobble","oakwood","andesite","sand","vanilla","gravel","granite","honeycomb","feather","wool","stone","diorite"],
+  ["melon","netherrack","snow","glass","sugar","flint","apple","bone","coal","carrot","ink","beetroot","sweetberries","glowberries"],
+  ["soulsoil","string","basalt","copper","clay","soulsand","sponge","leather"],
+  ["netherwart","redstone","lapis","obsidian","magmacream","iron","rotten","slime"],
+  ["chorusfruit","glowstone","endstone","gold","blazerod","netherquartz","tnt","enderpearl"],
+  ["emerald","ghasttear"],
+  ["diamond","netherite","netherstar"]]
+  for (let tier = 0; tier < chickens.length; tier++) {
+    for (let chicken = 0; chicken < chickens[tier].length; chicken++) {  
+      event.custom({"type": "create:mixing","ingredients": [ { "item" : "chicken_roost:c_"+chickens[tier][chicken]},{ "item" : "chicken_roost:chicken_essence_tier_"+String(tier+1) }],"results": [ {"item" : "chicken_roost:c_"+chickens[tier][chicken]},{"item" : "chicken_roost:c_"+chickens[tier][chicken]}]});
+    }
+  }
 
   console.log('BOK BOK! The chicken recipes event has fired!')
+
+
+  let wings = ["winged:wing_elytra_light_blue","winged:wing_julianclark_cape_alt","winged:wing_mrmessiah_cape","winged:wing_elytra_gray","winged:wing_julianclark_cape",
+    "winged:wing_minecon_2016_cape","winged:wing_millionth_cape","winged:wing_green_dragon","winged:wing_elytra_yellow","winged:wing_minecon_2012_cape","winged:wing_fairyonline","winged:wing_minecon_2019_cape",
+  "winged:wing_tiny_bird","winged:wing_greenwing_macaw","winged:wing_mech_dragon","winged:wing_eagle","winged:wing_golden_beetle","winged:wing_green_beetle",
+"winged:wing_elytra_light_gray","winged:wing_bat_alt","winged:wing_spooky","winged:wing_fried_chicken","winged:wing_mojang_cape_alt","winged:wing_minecon_2015_cape","winged:wing_elytra_lime",
+  "winged:wing_elytra_blue","winged:wing_creamy_white","winged:wing_scrolls_cape","winged:wing_elytra_white","winged:wing_mojira_mod_cape","winged:wing_xmas_tree","winged:wing_elytra_purple",
+"winged:wing_phantom_alt","winged:wing_brazil","winged:wing_elytra_orange","winged:wing_elytra_cyan","winged:wing_vex","winged:wing_elytra_black","winged:wing_angel","winged:wing_earth","winged:wing_dragonfly",
+"winged:wing_elytra_green","winged:wing_template","winged:wing_usa","winged:wing_turtle_cape","winged:wing_crowdin_cape","winged:wing_glider","winged:wing_cobalt_cape","winged:wing_tnt","winged:wing_demon","winged:wing_random",
+"winged:wing_elytra_red","winged:wing_redstone","winged:wing_fire_dragon","winged:wing_minecon_2011_cape","winged:wing_phantom","winged:wing_rainbow","winged:wing_irreality","winged:wing_mapmaker_cape","winged:wing_elytra_pink",
+"winged:wing_elytra","winged:wing_prismarine_cape","winged:wing_elytra_magenta","winged:wing_red_dragon","winged:wing_phoenix","winged:wing_mojang_cape","winged:wing_minecon_2013_cape","winged:wing_xmas_star","winged:wing_bat",
+"winged:wing_shulker","winged:wing_purple_beetle","winged:wing_phantom_membrane","winged:wing_elytra_brown","winged:wing_dannybstyle_cape","winged:wing_glass"]
+  //OMFG ITS OVER, FUCKASS CREATOR DIDN'T MAKE A TAG
+let creative_wings = wings.map((a ) => {
+    return a+"_creative_flight"
+  })
+
+  wings.forEach(element => {
+      wings.forEach(element2 => {
+        event.stonecutting(element,element2)
+  });
+  });
+    creative_wings.forEach(element => {
+      creative_wings.forEach(element2 => {
+        event.stonecutting(element,element2)
+  });
+  });
 })
 

@@ -1,0 +1,359 @@
+{
+  "bags": {
+    "tatimod:ancient_sack": {
+      "contents": [
+        {
+          "item": "tatimod:ancient_ruby_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_ruby_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_topaz_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_topaz_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_citrine_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_citrine_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_jade_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_jade_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_sapphire_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_sapphire_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_tanzanite_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_tanzanite_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        }
+      ],
+      "loot_tables": {
+        "minecraft:chests/simple_dungeon": {
+          "chance": 0.7,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/bastion_treasure": {
+          "chance": 0.7,
+          "min": 1.0,
+          "max": 3.0
+        },
+        "minecraft:chests/ruined_portal": {
+          "chance": 0.3,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/end_city_treasure": {
+          "chance": 0.7,
+          "min": 1.0,
+          "max": 3.0
+        },
+        "minecraft:chests/abandoned_mineshaft": {
+          "chance": 0.3,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/shipwreck_treasure": {
+          "chance": 0.3,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/stronghold_corridor": {
+          "chance": 0.5,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/stronghold_crossing": {
+          "chance": 0.3,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/buried_treasure": {
+          "chance": 0.7,
+          "min": 1.0,
+          "max": 1.0
+        }
+      }
+    },
+    "tatimod:precious_sack": {
+      "contents": [
+        {
+          "item": "tatimod:ancient_attack_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_attack_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_defence_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_defence_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_ranged_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_ranged_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_arcane_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_arcane_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_fire_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_fire_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_frost_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_frost_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_healing_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_healing_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_lightning_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_lightning_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_soul_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_soul_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        }
+      ],
+      "loot_tables": {
+        "minecraft:chests/bastion_treasure": {
+          "chance": 0.5,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/end_city_treasure": {
+          "chance": 0.5,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "bosses_of_mass_destruction:entities/void_blossom": {
+          "chance": 0.3,
+          "min": 1.0,
+          "max": 1.0
+        }
+      }
+    },
+    "tatimod:peculiar_sack": {
+      "contents": [
+        {
+          "item": "tatimod:ancient_netherite_ruby_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_netherite_ruby_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_netherite_topaz_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_netherite_topaz_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_netherite_citrine_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_netherite_citrine_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_netherite_jade_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_netherite_jade_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_netherite_sapphire_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_netherite_sapphire_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_netherite_tanzanite_ring",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        },
+        {
+          "item": "tatimod:ancient_netherite_tanzanite_necklace",
+          "min": 1,
+          "max": 1,
+          "weight": 1
+        }
+      ],
+      "loot_tables": {
+        "minecraft:chests/bastion_treasure": {
+          "chance": 0.35,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/bastion_bridge": {
+          "chance": 0.25,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/nether_bridge": {
+          "chance": 0.2,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/bastion_hoglin_stable": {
+          "chance": 0.25,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "minecraft:chests/bastion_other": {
+          "chance": 0.25,
+          "min": 1.0,
+          "max": 1.0
+        }
+      }
+    }
+  }
+}
