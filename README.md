@@ -2,7 +2,7 @@
 I don't know how to export a modpack to a repository so I did my best 
 go download the modpack [here](https://modrinth.com/modpack/sloppyrpg)
 
-# SLOPPY RPG 0.0.8
+# SLOPPY RPG 0.1.1
 Sloppy RPG  is a magic and adventure focused minecraft modpack. 
 
 In your infinite greed, you wake up with the terrible urge get the fabled gilded glory armor, to do this, you must complete the biggest adventure of your life!
