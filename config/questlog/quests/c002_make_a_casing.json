@@ -1,0 +1,29 @@
+{
+    "title" : "Machine framing",
+    "description" : "From a stripped log and andesite alloy, you can form andesite casings, click the stripped log with the alloy. This material is very useful for crafts as well",
+    "chapter" : "create_basics",
+    "icon" : {
+        "item" : "create:andesite_casing"
+    },
+    "requirements" : [
+        {
+            "type" : "questlog:quest_complete",
+            "quest" : "questlog:c001_get_andesite_alloy"
+        }
+    ],
+    "objectives" : [
+        {
+            "type" : "questlog:item_obtain",
+            "item" : "create:andesite_casing",
+            "required_amount" : 4,
+            "name" : "Make 4x Andesite Casings"
+        }
+    ],
+          "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "create:andesite_casing",
+      "count": 4
+    }
+  ]
+}

@@ -1,16 +1,31 @@
 [button]
-	# Whether the GUI button should be positioned relative to the inventory screen,
-	#if false, it will be positioned relative to the top-left corner of the screen
-	# Default: true
-	relativeToInventory = true
-	# The X position of the button
-	# Default: 2
-	# Range: [-inf, inf]
-	x = 2
-	# The Y position of the button
-	# Default: -26
-	# Range: [-inf, inf]
-	y = -26
-	# Whether the GUI button should be displayed in the inventory screen
-	# Default: true
-	enabled = true
+enabled = true
+showBadge = true
+relativeToInventory = true
+x = 2
+y = -26
+badgeX = 24
+badgeY = 0
+bobbingBadge = true
+[gui]
+mainPanelX = 0
+mainPanelY = 0
+searchBarX = 0
+searchBarY = 0
+chapterButtonsX = 0
+chapterButtonsY = 0
+[colors]
+textColor = 4995099
+titleColor = 4995099
+completedTextColor = 5414482
+failedTextColor = 11141120
+uncollectedTextColor = 10380850
+progressTextColor = 10385490
+hoveredTextColor = 16777215
+searchTextColor = 4995099
+noQuestsColor = 4995099
+hoverFillColor = -2130706433
+toastTitleColor = 10380850
+toastDescriptionColor = 4995099
+[editor]
+enableEditorButton = false

@@ -1,0 +1,31 @@
+{
+    "title" : "Alloying rocks?",
+    "description" : "Create demands a pretty high supply of a material called andesite alloy, you will need to make some",
+    "chapter" : "create_basics",
+    "icon" : {
+        "item" : "create:andesite_alloy"
+    },
+    "requirements" : [
+        {
+            "type": "questlog:block_mine",
+            "block": "minecraft:andesite",
+            "required_amount" : 2
+        }
+    ],
+    "objectives": [
+        {
+            "type": "questlog:item_obtain",
+            "item": "create:andesite_alloy",
+            "required_amount" : 8,
+            "name" :"Get 8x andesite alloy"
+        }
+    ],
+
+      "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "create:andesite_alloy",
+      "count": 8
+    }
+  ]
+}

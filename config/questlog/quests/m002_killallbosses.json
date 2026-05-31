@@ -1,0 +1,146 @@
+{
+    "sort_order" : 1,
+    "title" : "Ridder of Evil",
+    "description": "Forces of evil have been unleashed in this universe, you must get rid of them for the wellbeing of us all, make sure you are prepared, this is your ultimate purpose :\n\n-The Night Lich : a frozen evil wizard that you will never reach without projectiles, follow the soul stars, put them in their slot (you will need 4) and beat this legendary wizard.\n-The Void Blossom : a Parasitic poisonous sentient plant found in underground pockets, watch out for the spikes it can thrust into you and the ones on it's body.\n-The Horseman : found in the sleepy hollows by using a luminous essence on a pedestal (and meeting some requirement that you will get by naturally being in the biome long enough). his army and fire are hard to manage but you will do just fine.\n-The Elder Guardian : a spiky underwater being in ocean monuments, watch out for it's laser and make sure you don't drown.\n-Tar, Ayla, Leven, Inigo and Null : the 5 elemental bosses of archon, arise from the summoning pedestal (recipes will be on quests dw). they are very aggressive humanoids so watch out!!\n- The Warden : the blind force of nature\n\n-The Nether Gauntlet : A dark hand bolstering an eye in it's palm found in nether arenas, you may only harm it in it's eye. Break the eye blocks in the middle of the arena to commence the fight.\n-The Wither : a three headed icon of suffering, form this golem from a soul sand T and three wither skeleton heads, watch out for it's withering projectiles\n\n-The Ender Dragon : The end's guardian, she will do anything in her power to make you return to the overworld, break her crystals to stop her regenerating and destroy this beast.\n-The Obsidilith: A Pillar of destruction found in the end in a cube shaped structure, on the top is an altar in which you need put an eye of ender to spawn the boss, kill it lest you will be thrown into the void.\n\nVictorious of these bosses, you will emerge a victorious Warrior",
+    "objectives": [
+    {
+    "type": "questlog:entity_kill",
+    "required_amount": 1,
+    "entity": "bosses_of_mass_destruction:lich",
+
+    "name": "Kill the Night Lich",
+    "icon": {
+    "item": "bosses_of_mass_destruction:soul_star"
+    }
+    },
+    {
+    "type": "questlog:entity_kill",
+    "required_amount": 1,
+    "entity": "bosses_of_mass_destruction:void_blossom",
+    "name": "Kill the Void Blossom",
+    "icon": {
+    "item": "bosses_of_mass_destruction:void_thorn"
+    }
+    },
+    {
+    "type": "questlog:entity_kill",
+    "required_amount": 1,
+    "entity": "bosses_of_mass_destruction:gauntlet",
+
+    "name": "Kill the Nether Gauntlet",
+    "icon": {
+    "item": "bosses_of_mass_destruction:blazing_eye"
+    }
+    },
+    {
+    "type": "questlog:entity_kill",
+    "required_amount": 1,
+    "entity": "bosses_of_mass_destruction:obsidilith",
+
+    "name": "Kill the Obsidilith",
+    "icon": {
+    "item": "bosses_of_mass_destruction:obsidian_heart"
+    }
+    },
+    {
+    "type": "questlog:entity_kill",
+    "required_amount": 1,
+    "entity": "minecraft:ender_dragon",
+
+    "name": "Kill the Ender Dragon",
+    "icon": {
+    "item": "minecraft:dragon_head"
+    }
+    },
+    {
+    "type": "questlog:entity_kill",
+    "required_amount": 1,
+    "entity": "minecraft:wither",
+
+    "name": "Kill the Wither",
+    "icon": {
+    "item": "minecraft:wither_skeleton_skull"
+    }
+    },
+    {
+    "type": "questlog:entity_kill",
+    "required_amount": 1,
+    "entity": "sleepy_hollows:horseman",
+
+    "name": "Kill the Horseman",
+    "icon": {
+    "item": "sleepy_hollows:lootbag"
+    }
+    },
+    {
+    "type": "questlog:entity_kill",
+    "required_amount": 1,
+    "entity": "minecraft:elder_guardian",
+
+    "name": "Kill the Elder Guardian",
+    "icon": {
+    "item": "minecraft:sponge"
+    }
+    },
+    {
+    "type": "questlog:entity_kill",
+    "required_amount": 1,
+    "entity": "archon:tar",
+
+    "name": "Kill Tar",
+    "icon": {
+    "item": "archon:terranite_stone"
+    }
+    },
+    {
+    "type": "questlog:entity_kill",
+    "required_amount": 1,
+    "entity": "archon:ayla",
+
+    "name": "Kill Ayla",
+    "icon": {
+    "item": "archon:angelic_star"
+    }
+    },
+    {
+    "type": "questlog:entity_kill",
+    "required_amount": 1,
+    "entity": "archon:leven",
+
+    "name": "Kill Leven",
+    "icon": {
+    "item": "archon:wave_crystal"
+    }
+    },
+    {
+    "type": "questlog:entity_kill",
+    "required_amount": 1,
+    "entity": "archon:inigo",
+
+    "name": "Kill Inigo",
+    "icon": {
+    "item": "archon:charred_eye"
+    }
+    },
+    {
+    "type": "questlog:entity_kill",
+    "required_amount": 1,
+    "entity": "archon:null",
+
+    "name": "Kill Null",
+    "icon": {
+    "item": "archon:soulless_eye"
+    }
+    },
+    {
+    "type": "questlog:entity_kill",
+    "required_amount": 1,
+    "entity": "minecraft:warden",
+
+    "name": "Kill the Warden",
+    "icon": {
+    "item": "minecraft:echo_shard"
+    }
+    }
+    ]
+}

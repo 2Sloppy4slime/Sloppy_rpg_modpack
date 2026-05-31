@@ -1,0 +1,9 @@
+{
+  "name": "Hexcasting",
+  "icon": {
+    "item": "hexical:curio_strange"
+  },
+  "order": 0,
+  "default_chapter": false,
+  "hidden": false
+}

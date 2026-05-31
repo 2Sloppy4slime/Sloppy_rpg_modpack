@@ -1,0 +1,58 @@
+{
+  "sort_order" : 0,
+  "title": "Greedmaxxing",
+  "description": "You suddenly have the urge to acquire the fabled gilded glory armor set. However, it is given only to the mightiest heroes, you must become such hero to get it",
+  "icon": {
+      "item": "mcda:gilded_glory_helmet"
+  },
+  "objectives": [
+    {
+      "type": "questlog:quest_complete",
+      "total": 1,
+      "quest": "questlog:m002_killallbosses",
+      "name": "Become a Ridder Of Evil"
+    },
+    {
+      "type": "questlog:quest_complete",
+      "total": 1,
+      "quest": "questlog:m003_dimensions",
+      "display": {
+        "name": "Travel to every Dimension"
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:command",
+      "command": "/give @s mcda:gilded_glory_helmet{Unbreakable:1b} 1",
+      "name": "Gilded glory helmet",
+      "icon": {
+        "item": "mcda:gilded_glory_helmet"
+      }
+    },
+    {
+           "type": "questlog:command",
+      "command": "/give @s mcda:gilded_glory_chestplate{Unbreakable:1b} 1",
+      "name": "Gilded glory chestplate",
+      "icon": {
+        "item": "mcda:gilded_glory_chestplate"
+      }
+    },
+    {
+      "type": "questlog:command",
+      "command": "/give @s mcda:gilded_glory_leggins{Unbreakable:1b} 1",
+      "name": "Gilded glory leggings",
+      "icon": {
+        "item": "mcda:gilded_glory_leggings"
+      }
+    },
+    {
+      "type": "questlog:command",
+      "command": "/give @s mcda:gilded_glory_boots{Unbreakable:1b} 1",
+      "name": "Gilded glory boots",
+      "icon": {
+        "item": "mcda:gilded_glory_boots"
+      }
+    }
+  ]
+}

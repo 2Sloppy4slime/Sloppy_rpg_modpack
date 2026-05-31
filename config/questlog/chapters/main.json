@@ -1,0 +1,8 @@
+{
+  "name": "I need this armor",
+  "icon": {
+    "item": "mcda:gilded_glory_helmet"
+  },
+  "default_chapter": true,
+  "hidden": false
+}

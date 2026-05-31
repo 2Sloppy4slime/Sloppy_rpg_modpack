@@ -266,5 +266,72 @@ let creative_wings = wings.map((a ) => {
         event.stonecutting(element,element2)
   });
   });
+
+
+
+  let wooden_staves = ["hexcasting:staff/oak","hexcasting:staff/spruce","hexcasting:staff/birch","hexcasting:staff/jungle","hexcasting:staff/acacia","hexcasting:staff/dark_oak","hexcasting:staff/crimson",
+  "hexcasting:staff/mangrove","hexcasting:staff/cherry","hexcasting:staff/bamboo","hextended:staff/flowered_moss","hextended:staff/moss"]
+let long_wooden_staves = wooden_staves.map((a ) => {
+    
+    return "hextended:staff/long/" + a.slice(a.indexOf("/")+1)
+
+  })
+  wooden_staves.forEach(element => {
+      wooden_staves.forEach(element2 => {
+
+        event.stonecutting(element,element2)
+  });
+  });
+    long_wooden_staves.forEach(element => {
+      long_wooden_staves.forEach(element2 => {
+        event.stonecutting(element,element2)
+  });
+  });
+
+
+  event.shaped(
+    Item.of("create:creative_fluid_tank",1),
+    [
+      'ABA',
+      'CDC',
+      'ABA'
+    ],
+    {
+      A: "create:fluid_tank",
+      B: "end_reborn:remnant_block",
+      C: "oneironaut:endless_phial",
+      D: "hexical:plush_thothy"
+    }
+  ).keepIngredient("hexical:plush_thothy")
+
+
+
+
+  Ingredient.registerCustomIngredientAction(
+        "apply_media",
+        (itemstack, index, inventory) => {
+            let batteries = inventory.getAllItems(
+                Item.of("hexcasting:battery")
+            );
+            batteries.forEach((battery) => {
+                let media = battery.nbt;
+                if ((itemstack.nbt = null)) itemstack.nbt = {};
+                itemstack.nbt = itemstack.nbt.merge({
+                    "hexcasting:start_media": media.get("hexcasting:start_media")
+                });
+            });
+            return itemstack;
+        }
+    );
+    event
+        .shapeless(
+            Item.of("hexcasting:battery", 1, {
+                "hexcasting:media": 0,
+                "hexcasting:start_media": 200000
+            }),
+            [Item.of("hexcasting:battery", 1), Item.of("hexcasting:battery", 1)]
+        )
+        .customIngredientAction(Item.of("hexcasting:battery", 1), "apply_media");
 })
+
 

@@ -1,0 +1,9 @@
+{
+  "name": "About/Info",
+  "icon": {
+    "item": "dimdoors:dimensional_eraser"
+  },
+  "order": 100,
+  "default_chapter": false,
+  "hidden": false
+}

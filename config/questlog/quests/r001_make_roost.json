@@ -1,0 +1,37 @@
+{
+    "title": "Make them a home at least!",
+    "description": "roosts can host chickens and make them give you a resource in exchange for seeds of their corresponding tier",
+    "icon": {
+      "item": "minecraft:egg"
+    },
+  "chapter": "chicken_roost",
+  "triggers": [
+    {
+      "type": "questlog:item_obtain",
+      "total": 1,
+      "item": "chicken_roost:c_vanilla"
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "total": 1,
+      "item": "chicken_roost:roost__v1",
+      "display": {
+        "name": "Get 1x Roost",
+        "icon": {
+          "item": "chicken_roost:roost__v1"
+        }
+      }
+    }
+  ],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "chicken_roost:roost__v1",
+      "display": {
+        "name": "1x roost"
+      }
+    }
+  ]
+}

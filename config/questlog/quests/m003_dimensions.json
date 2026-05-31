@@ -1,0 +1,63 @@
+    {
+        "sort_order" : 1,
+    "title": "Interdimensionnal Traveller!",
+    "description": "Visit All dimensions",
+    "icon": {
+    "item": "minecraft:grass_block"
+    },
+    "triggers": [],
+    "objectives": [
+    {
+    "type": "questlog:visit_dimension",
+    "required_amount": 1,
+    "dimension": "minecraft:the_nether",
+    "name": "Nether",
+    "icon": {
+    "item": "minecraft:netherrack"
+    }
+    },
+    {
+    "type": "questlog:visit_dimension",
+    "required_amount": 1,
+    "dimension": "minecraft:the_end",
+    "name": "End",
+    "icon": {
+    "item": "minecraft:end_stone"
+    }
+    },
+    {
+    "type": "questlog:visit_dimension",
+    "required_amount": 1,
+    "dimension": "dimdoors:limbo",
+    "name": "Limbo"
+    },
+    {
+    "type": "questlog:visit_dimension",
+    "required_amount": 1,
+    "dimension": "dimdoors:personal_pockets",
+    "name": "Personnal pocket"
+    },
+    {
+    "type": "questlog:visit_dimension",
+    "required_amount": 1,
+    "dimension": "dimdoors:dungeon_pockets",
+    "name": "Dimensionnal dungeon"
+    },
+    {
+    "type": "questlog:visit_dimension",
+    "required_amount": 1,
+    "dimension": "oneironaut:noosphere",
+    "name": "Noosphere",
+    "icon": {
+    "item": "oneironaut:shifting_pseudoamethyst"
+    }
+    }
+    ],
+    "rewards": [
+    {
+    "type": "questlog:experience",
+    "experience": 5,
+    "name": "exp"
+    }
+    ]
+    }

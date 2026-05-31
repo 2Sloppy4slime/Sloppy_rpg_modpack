@@ -1,0 +1,54 @@
+{
+    "title" : "Magical assembly language",
+    "description" : "You just found a Geode!! Amethyst is the catalyst of every magic related in the Hexcasting family so make sure to harvest a lot!\n\nRight now, you should make a hexcasting staff and the Hex notebook\n\n the notebook contains each individual pattern for spellmaking, the staff will make you able to cast spells,  although you will have to write them all down yourself each time for now, but frette naught! Most of the following quests will make you craft items to make spellcasting easier.",
+    "chapter" : "hexcasting",
+    "icon" : {
+        "item" : "hexcasting:charged_amethyst"
+    },
+
+    "requirements" : [
+        {
+            "type": "questlog:or",
+            "objectives" : [
+                {
+                    "type" : "questlog:item_obtain",
+                    "item" : "minecraft:amethyst_shard",
+                    "required_amount" : 1
+                },
+                {
+                    "type" : "questlog:item_obtain",
+                    "item" : "minecraft:amethyst_block",
+                    "required_amount" : 1
+                },
+                {
+                    "type" : "questlog:item_obtain",
+                    "item" : "hexcasting:amethyst_dust",
+                    "required_amount" : 1
+                },
+                {
+                    "type" : "questlog:item_obtain",
+                    "item" : "hexcasting:charged_amethyst",
+                    "required_amount" : 1
+                }
+            ]
+        }
+    ],
+    "objectives" : [
+        {
+            "type" : "questlog:item_craft",
+            "item" : "#hexcasting:staves",
+            "name" : "Make a Hexcasting staff",
+            "required_amount" : 1,
+            "icon" : {
+                "item" : "hexcasting:staff/oak"
+            }
+        },
+        {
+            "type" : "questlog:item_craft",
+            "item" : "patchouli:guide_book",
+            "name" : "Make a Hex Notebook",
+            "required_amount" : 1
+        }
+    ]
+
+}

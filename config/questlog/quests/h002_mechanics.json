@@ -1,0 +1,11 @@
+{
+    "title" : "Hexcasting Mechanics",
+    "description"  : "Hexcasting is a very complicated mod family, It's okay if you don't understand it all right now. \n# Spells \na spell can be any successful sequence of patterns. ",
+    "chapter": "hexcasting",
+    "requirements":  [
+        {
+        "type" : "questlog:quest_complete",
+        "quest" : "questlog:h001_make_wandbook"
+    }
+    ]
+}

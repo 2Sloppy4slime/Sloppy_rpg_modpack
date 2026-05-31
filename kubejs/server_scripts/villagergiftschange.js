@@ -11,7 +11,11 @@ LootJS.modifiers(event => {
 
 
 
-
+  let nums = ["1","2","3","4","5","6","7","8"]
+  nums.forEach(num => {
+    event.addLootTableModifier("chicken_roost:blocks/cropblock_" + num).removeLoot("chicken_roost:chicken_essence_tier_" + num)
+    //event.addLootTableModifier("chicken_roost:blocks/cropblock_" + num).addLoot("chicken_roost:chicken_food_tier_" + num)
+  });
 
   event.addLootTableModifier("minecraft:chests/igloo_chest").removeLoot("endrem:cold_eye")
 })
